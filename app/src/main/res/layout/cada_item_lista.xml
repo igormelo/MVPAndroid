@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#4833e9"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:onClick="goTo"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:textColor="#b64a97ef"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#4833e9"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:text="Idade:"/>
+        <TextView
+            android:id="@+id/age"
+            android:textSize="35dp"
+            android:textColor="#b64a97ef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:text="Cidade:"
+            android:textSize="35dp"
+            android:textColor="#4833e9"/>
+
+        <TextView
+            android:id="@+id/city"
+            android:textSize="35dp"
+            android:textColor="#b64a97ef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15dp"
+        android:text="Clique aqui no seu nome para ver a lista de paises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+
+</LinearLayout>
